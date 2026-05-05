@@ -21,7 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-/* --- HEADER / NAVBAR --- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -65,7 +64,6 @@ body {
     color: #3498db;
 }
 
-/* --- HERO --- */
 .hero {
     height: 80vh;
     margin-top: 60px;
@@ -109,7 +107,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* --- SERVIÇOS --- */
 .services {
     padding: 80px 10%;
     background-color: #fff;
@@ -165,7 +162,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* --- CONTATO --- */
 .contact {
     padding: 80px 10%;
     background-color: #f4f7f6;
@@ -208,7 +204,6 @@ body {
     border-color: #3498db;
 }
 
-/* FEEDBACK LOGIC */
 .send-check {
     display: none;
 }
@@ -258,7 +253,6 @@ body {
     text-decoration: underline;
 }
 
-/* --- FOOTER --- */
 footer {
     text-align: center;
     padding: 30px;
@@ -266,7 +260,6 @@ footer {
     color: white;
 }
 
-/* --- RESPONSIVIDADE --- */
 @media (max-width: 768px) {
     .navbar {
         padding: 15px 5%;
