@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InovaTech - Soluções Digitais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">InovaTech</div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <label for="menu-toggle" class="hamburger-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="menu-items">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transforme suas ideias em realidade digital</h1>
+            <p>Criamos soluções modernas e eficientes para o seu negócio crescer no mundo online.</p>
+            <a href="#servicos" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section id="servicos" class="services">
+        <div class="container-title">
+            <h2>Nossos Serviços</h2>
+            <p>Soluções sob medida para o seu projeto</p>
+        </div>
+        
+        <div class="services-container">
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites modernos, responsivos e otimizados para o Google.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>UI/UX Design</h3>
+                <p>Interfaces pensadas na melhor experiência para o seu cliente final.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">📈</div>
+                <h3>SEO & Marketing</h3>
+                <p>Estratégias para colocar sua empresa no topo das buscas orgânicas.</p>
+            </div>
+                <div class="service-card">
+                <div class="icon">🧰</div>
+                <h3>Redes e Infraestrutura</h3>
+                <p>A organização e manutenção de redes e sistemas de infraestrutura tecnológica.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO COM FEEDBACK -->
+    <section id="contato" class="contact">
+        <div class="container-title">
+            <h2>Fale Conosco</h2>
+            <p>Tire suas dúvidas ou peça um orçamento</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <input type="checkbox" id="send-check" class="send-check">
+
+            <div class="form-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea rows="4" placeholder="Como podemos ajudar?" required></textarea>
+                    </div>
+                    <label for="send-check" class="btn-fake-submit">Enviar Mensagem</label>
+                </form>
+            </div>
+
+            <div class="success-message">
+                <div class="success-icon">✅</div>
+                <h3>Mensagem Enviada!</h3>
+                <p>Obrigado pelo contato. Retornaremos em breve.</p>
+                <label for="send-check" class="btn-back">Enviar outra mensagem</label>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 InovaTech - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
